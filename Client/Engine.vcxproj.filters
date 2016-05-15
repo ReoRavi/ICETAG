@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{0d215d03-f68c-4323-ac40-756135998014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core">
+      <UniqueIdentifier>{50b0514a-f08c-4881-9d2a-22603af29088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\System">
+      <UniqueIdentifier>{9c46d783-6f63-4ba7-9d86-d68c2e2c4a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Manager">
+      <UniqueIdentifier>{56d9f87f-0a6b-4296-a70d-4d0221244acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Util">
+      <UniqueIdentifier>{33c570bb-9c0a-4d0c-b865-b5e3629b9738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Main">
+      <UniqueIdentifier>{8f15fbcc-381f-455d-9eb5-649a4aeac78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Network">
+      <UniqueIdentifier>{e8105920-0d72-4541-ab3d-4ae733cae5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{1f89e9cc-5982-463f-9e7b-e463d6a51bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ConnectToRoom">
+      <UniqueIdentifier>{2fa23861-06af-43ee-8777-957da883d294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\HowtoPlay">
+      <UniqueIdentifier>{3ee950d9-2bdd-4eb2-acdb-10ce103c7abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\InGame">
+      <UniqueIdentifier>{4ca1498a-5267-4a63-be99-156af9330029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Room">
+      <UniqueIdentifier>{6072b3fe-f410-45d5-a383-643fc2ce1d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Title">
+      <UniqueIdentifier>{c1859db7-6934-4ba9-97c7-fd383a78f470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Network\AnalysisPacket">
+      <UniqueIdentifier>{370f3de9-1295-445d-9f03-41491a4789ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Network\MakePacket">
+      <UniqueIdentifier>{8231e3b3-c2b0-4cb6-8209-0b483e106cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Network\Stream">
+      <UniqueIdentifier>{f2bee651-ec6a-405e-9d0f-15421e2f009f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Core\Network\Network">
+      <UniqueIdentifier>{153d8364-189c-4c83-b8c3-65b48e15e594}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine Files\Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Engine Files\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Engine Files\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingredient.h">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Lable.h">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Engine Files\Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Engine Files\Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Engine Files\Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDefine.h">
+      <Filter>Engine Files\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="S_ConnectToRoom.h">
+      <Filter>Scene\ConnectToRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="S_HowtoPlay.h">
+      <Filter>Scene\HowtoPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="S_InGame.h">
+      <Filter>Scene\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Room.h">
+      <Filter>Scene\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Title.h">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalysisPacket.h">
+      <Filter>Engine Files\Core\Network\AnalysisPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="MakePacket.h">
+      <Filter>Engine Files\Core\Network\MakePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Engine Files\Core\Network\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork.h">
+      <Filter>Engine Files\Core\Network\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine Files\Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Engine Files\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingredient.cpp">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Lable.cpp">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Engine Files\Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Engine Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine Files\Core\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="S_ConnectToRoom.cpp">
+      <Filter>Scene\ConnectToRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="S_HowtoPlay.cpp">
+      <Filter>Scene\HowtoPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="S_InGame.cpp">
+      <Filter>Scene\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Room.cpp">
+      <Filter>Scene\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Title.cpp">
+      <Filter>Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalysisPacket.cpp">
+      <Filter>Engine Files\Core\Network\AnalysisPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="MakePacket.cpp">
+      <Filter>Engine Files\Core\Network\MakePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Engine Files\Core\Network\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork.cpp">
+      <Filter>Engine Files\Core\Network\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Engine.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

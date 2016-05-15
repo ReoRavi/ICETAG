@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{fcdd53cc-9693-4b90-91f1-61bad44106c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{13097581-89a7-4545-b4ed-7afa1821530c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{5c3bbf10-fc3b-49e0-a1d6-cdf2d1de63ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\MakePacket">
+      <UniqueIdentifier>{9a0c51f0-620e-4854-8b53-d772cfe2dd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\AnalysisPacket">
+      <UniqueIdentifier>{05dfac07-f833-496c-ae7f-f23528c4d1b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{5269bd6c-02bc-4a68-b112-c50e3e936dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{3f20029d-eaf1-48b2-8ec0-c3a78f4c5f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ohters">
+      <UniqueIdentifier>{3c7b1f4f-60c3-404a-b1e2-d25b428db904}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalysisPacket.h">
+      <Filter>Packet\AnalysisPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="MakePacket.h">
+      <Filter>Packet\MakePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumDefine.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketInfo.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Ohters</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Ohters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalysisPacket.cpp">
+      <Filter>Packet\AnalysisPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="MakePacket.cpp">
+      <Filter>Packet\MakePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Ohters</Filter>
+    </ClCompile>
+    <ClCompile Include="IceTT_Server.cpp">
+      <Filter>Ohters</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
