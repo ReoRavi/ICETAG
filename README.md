@@ -8,3 +8,5 @@ Server Model : BSD-Select
 Client Model : BSD-Select
 
 Develop Period : 2015-10 ~ 2016-12
+
+Youtube Link : https://www.youtube.com/watch?v=iRcJannyEzE
